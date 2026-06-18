@@ -1,17 +1,17 @@
 # P2P WebShare
 
-A beautiful, lightning-fast, and hyper-secure peer-to-peer file sharing web application. 
+A lightning-fast, and hyper-secure peer-to-peer file sharing web application. 
 Send files directly from your browser to anyone in the world without them ever touching a server. Built with WebRTC and end-to-end encrypted using AES-256-GCM.
 
 Live demo : click here to try the app : https://p2-p-webshare-2-0.vercel.app/
 
 ## Key Features
 
-- ** Direct Peer-to-Peer:** Files are transferred directly between browsers using WebRTC Data Channels. No intermediate servers means blazing fast transfer speeds.
-- ** End-to-End Encryption (E2EE):** Every file chunk is encrypted in the browser using AES-GCM 256-bit encryption before it even touches the network.
-- ** Zero-Knowledge Architecture:** The encryption key is randomly generated and appended to the sharing URL as a hash (`#key=...`). The signaling server never sees the key, meaning no one can decrypt your files in transit.
-- ** Unlimited File Size:** Uses chunking and the Origin Private File System (OPFS) API to stream files directly to disk, completely bypassing browser RAM limits. Send multi-gigabyte files effortlessly.
-- ** Integrity Verification:** The sender automatically calculates a SHA-256 hash of the original file. The receiver re-calculates the hash upon completion to guarantee mathematical file integrity.
+-  Direct Peer-to-Peer: Files are transferred directly between browsers using WebRTC Data Channels. No intermediate servers means blazing fast transfer speeds.
+-  End-to-End Encryption (E2EE): Every file chunk is encrypted in the browser using AES-GCM 256-bit encryption before it even touches the network.
+-  Zero-Knowledge Architecture: The encryption key is randomly generated and appended to the sharing URL as a hash (`#key=...`). The signaling server never sees the key, meaning no one can decrypt your files in transit.
+-  Unlimited File Size: Uses chunking and the Origin Private File System (OPFS) API to stream files directly to disk, completely bypassing browser RAM limits. Send multi-gigabyte files effortlessly.
+-  Integrity Verification: The sender automatically calculates a SHA-256 hash of the original file. The receiver re-calculates the hash upon completion to guarantee mathematical file integrity.
 
 ##  Tech Stack
 
