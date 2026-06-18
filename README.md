@@ -1,8 +1,9 @@
 # 🚀 P2P WebShare
 
 A beautiful, lightning-fast, and hyper-secure peer-to-peer file sharing web application. 
-
 Send files directly from your browser to anyone in the world without them ever touching a server. Built with WebRTC and end-to-end encrypted using AES-256-GCM.
+
+Live demo : click here to try the app : https://p2-p-webshare-2-0.vercel.app/
 
 ## ✨ Key Features
 
